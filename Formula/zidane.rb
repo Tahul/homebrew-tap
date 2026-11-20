@@ -2,28 +2,28 @@
 class Zidane < Formula
   desc "Coding agent for the terminal"
   homepage "https://zidane.si"
-  version "9.5.2"
+  version "9.6.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://zidane.si/dl/v9.5.2/zidane-v9.5.2-darwin-arm64.tar.gz"
-      sha256 "0d9c89ff5e3a75360e3553f5e73196d4a5ce4b691e35101b74263a7545479d83"
+      url "https://zidane.si/dl/v9.6.1/zidane-v9.6.1-darwin-arm64.tar.gz"
+      sha256 "3a462bb1e0d6f6430add16dbc1bb0b9dae773a44ca134b4937f1cc0c510c34ef"
     end
     on_intel do
-      url "https://zidane.si/dl/v9.5.2/zidane-v9.5.2-darwin-x64.tar.gz"
-      sha256 "4e541b1a17f41a4291e4ec655d298b8d01b7498d99cb921bfb8230314fd20bba"
+      url "https://zidane.si/dl/v9.6.1/zidane-v9.6.1-darwin-x64.tar.gz"
+      sha256 "7cf0d857e2467d0e405c4672d3d38969d646622ce729c3a42160ece1f3a7dda5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://zidane.si/dl/v9.5.2/zidane-v9.5.2-linux-arm64.tar.gz"
-      sha256 "0a9eba4b296fe7078dd8304746bc17a83af006a7a306d61636a25af1a438d43f"
+      url "https://zidane.si/dl/v9.6.1/zidane-v9.6.1-linux-arm64.tar.gz"
+      sha256 "abcf1e21937a8ae153bb77a578fb4815dcf2b4491b12cf9f9455023f115e56b4"
     end
     on_intel do
-      url "https://zidane.si/dl/v9.5.2/zidane-v9.5.2-linux-x64.tar.gz"
-      sha256 "0502838733557c95039cb40bb8e5eabe72cb8428f6a2b8ae2a782cc9ad880324"
+      url "https://zidane.si/dl/v9.6.1/zidane-v9.6.1-linux-x64.tar.gz"
+      sha256 "ad13466719505e66fe5dedf89fa75b98062c9c293c2f1f7bb1f2de229a33caa5"
     end
   end
 
